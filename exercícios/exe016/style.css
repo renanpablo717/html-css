@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* Regra @charset caso haja problemas com acentuação */
+
+*{
+    /*height: 100%;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #10454f, #506266);
+}
+
+main {
+    background-color: white;
+    border-radius: 30px; /*Arredonda as bordas*/
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.699); /*Sombreamento e suas especificações*/
+    width: 500px;
+    padding: 10px; /*Maior espaçacamento(preenchimento) entre a borda*/
+    margin: auto; /*Coloca o conteiner no meio do site, independente se você diminui ou aumenta a tela*/
+}
+
+h1{
+    color: #818274;
+    text-align: center;
+    text-shadow: 2px 2px 2px #6e6e63;
+}
+
+h2{
+    color: #A3AB78;
+    text-shadow: 1px 1px 1px #92996ce7;
+}
+
+p{
+    text-align: justify; /*Da um alinhamento e espaço melhor entre os textos, Justifica o texto em relação a página*/
+}

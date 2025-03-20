@@ -1,0 +1,20 @@
+
+body {
+    background-color: rgb(99, 97, 97);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: #F2C063;
+    font-size: 20px;
+    text-align: justify;
+    text-align: center;
+}
+h4 {
+    color:#F2C063;
+    font-family: Verdana;
+}
+main{
+    background-color: white;
+    width: 600px;
+
+}

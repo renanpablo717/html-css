@@ -1,0 +1,19 @@
+@charset "UTF8";
+/* Regra @charset caso haja problemas com acentuação */
+
+body {
+    background-image: linear-gradient(90deg, beige, rgb(252, 177, 190));
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px; 
+}
+h1 {
+    color: white;
+    background-color:pink;
+
+}
+h2{
+    color: rgb(134, 1, 175);
+}
+p{
+    text-align: justify;
+}

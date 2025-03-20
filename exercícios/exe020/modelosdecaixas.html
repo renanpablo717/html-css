@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas em HTMl</title>
+    <style>
+        h1{/*box-level*/
+            background-color: lightgray;
+            width: 300px;
+            height:300px;
+            border: 30px solid darkcyan;
+            padding: 20px 30px 20px 30px;
+            outline-width: 10px;
+            outline-style: dashed;
+            outline-color: rgb(0, 0, 5);
+            margin: 40px auto 40px auto;
+        }
+        a{ /*inline-block*/
+            border-width: 5px;
+            border-style: solid;
+            border-color: lightgreen;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa</h1>
+    <br>
+    <p>Parágrafos taqmbém são exemplos de box-level, mas os <a href="a">links tamém são exemplos de caixas inline-level</a></p>
+</body>
+</html>

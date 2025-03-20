@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalização</title>
+</head>
+<style>
+    body{
+        font: normal 1em arial, Helvetica, sans-serif;
+    }
+
+    a{
+        font-weight: bold;
+        text-decoration: none;
+        color: red;
+    }
+
+    a:visited{
+        color: darkred;
+    }
+    /* Pseudo-classes
+      hover: mouse em cima
+      visited: já visitado
+      active: ativado
+      checked: checado
+      empty: vazio
+      focus: foco*/
+    a:hover{ 
+        text-decoration: underline;
+    }
+
+    a:active{ /*quando você clica nele*/
+        color: yellow;
+    }
+
+    .especial:hover{ 
+        color: white;
+        background-color: black;
+        text-decoration: none;
+    }
+
+
+    /*Pseudo-elementos
+      ::before
+      ::after
+      ::first letter
+      ::first-line*/
+
+    .especial::before{
+        content: '[';
+        font-weight: bold;
+    }
+
+    .especial::after{
+        content: '[link]]';
+        font-weight: normal;
+        color: darkgray;
+    }
+</style>
+<body>
+    <h1>Personalizando um link</h1>
+
+    <p>
+        Para aprender HTML5 e CSS3, acesse o
+        <a href="https://github.com/gustavoguanabara"> GitHub do Guanabara</a>
+    </p>
+
+    
+    <p>
+        Se quiser conhecer mais sobre os padrões, visite o site do <a href="https://www.w3schools.com/">
+            Escritório do W3C no Brasil
+        </a>
+    </p>
+
+    <p>Para acompanhar os cursos, acesse o
+        <a href="https://www.cursoemvideo.com" class="especial"> canal do Curso em vídeo</a>
+    </p>
+    
+    
+</body>
+</html>

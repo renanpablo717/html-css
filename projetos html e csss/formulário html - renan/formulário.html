@@ -1,0 +1,189 @@
+<form action="/cadastro.html" method="post">
+
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Site de formulário</title>
+  </head>
+  <body>
+      <h1>
+        FORMULÁRIO HTML
+      </h1>
+
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+
+        <div>
+          <label for="Nome Completo">Nome Completo:</label>
+          <input type="text" id="Nome Completo" name="Nome Completo" required>
+        </div>
+
+        <div>
+          <label for="Data de Nascimento">Data de Nascimento:</label>
+          <input type="date" id="Data de Nascimento" required>
+        </div>
+
+        <legend>Estado Civil:</legend>
+
+        <div>
+          <input type="radio" id="Solteiro" name="Opcao" value="Solteiro" />
+          <label for="Solteiro">Solteiro</label>
+        </div>
+
+        <div>
+          <input type="radio" id="Casado" name="Opcao" value="Casado" />
+          <label for="Casado">Casado</label>
+        </div>
+
+        <div>
+          <input type="radio" id="Viuvo" name="Opcao" value="Viuvo" />
+          <label for="Viuvo">Viuvo</label>
+        </div>
+
+        <div>
+          <input type="radio" id="Divorciado" name="Opcao" value="Divorciado" />
+          <label for="Divorciado">Divorciado</label>
+        </div>
+
+        <div>
+          <label for="Cpf">Cpf:</label>
+          <input type="text" id="Cpf" required>
+        </div>
+
+        <div>
+          <label for="E-mail">E-mail:</label>
+          <input type="email" id="E-mail" required>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Dados de Contato</legend>
+
+        <div>
+          <label for="Endereço">Endereco:</label>
+          <input type="text" id="Endereço"  required>
+        </div>
+
+        <div>
+          <label for="Bairro">Bairro:</label>
+          <input type="text" id="Bairro"  required>
+        </div>
+
+        <div>
+          <label for="Cidade">Cidade:</label>
+          <input type="text" id="Cidade"  required>
+        </div>
+
+        <div>
+          <label for="Uf">Uf:</label>
+          <select id="Uf" name="Uf"  required>
+            <option>AC</option>
+            <option>AL</option>
+            <option>AP</option>
+            <option>AM</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>DF</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>MG</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PR</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RS</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>SC</option>
+            <option>SP</option>
+            <option>SE</option>
+            <option>TO</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="Cep">Cep:</label>
+          <input type="number" id="Cep"  required>
+        </div>
+
+        <div>
+          <label for="Celular">Celular:</label>
+          <input type="tel" id="Celular"  required>
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+        <legend> Dados de Cadastro</legend>
+
+        <div>
+          <label for="Login">Login:</label>
+          <input type="email" id="Login"  required>
+        </div>
+
+        <div>
+          <label for="Senha">Senha:</label>
+          <input type="password" id="Senha"  required>
+        </div>
+
+      </fieldset>
+      <legend>Escolha seus interesses:</legend>
+
+      <div>
+        <input type="checkbox" id="Tecnologia" name="interesse" value="Tecnologia" />
+        <label for="Tecnologia"> Tecnologia </label>
+
+      </div>
+
+      <div>
+        <input type="checkbox" id="música" name="interesse" value="música" />
+        <label for="Música"> Musica </label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="Cultura" name="interesse" value="Cultura" />
+        <label for="Cultura"> Cultura </label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="Economia" name="interesse" value="Economia" />
+        <label for="Economia"> Economia </label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="jogos" name="interesse" value="Jogos" />
+        <label for="Jogos"> Jgoos </label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="Empregos" name="interesse" value="Empregos" />
+        <label for="Empregos"> Emprego </label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="Viagem" name="interesse" value="Viagem" />
+        <label for="Viagem"> Viagem </label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="Moda e Estilo" name="interesse" value="Moda e Estilo" />
+        <label for="Moda e Estilo"> Moda e Estilo </label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="Li as regras e autorizo meu cadastro" name="cadastro" value="Li as regras e autorizo meu cadastro" />
+        <label for="Li as regras e autorizo meu cadastro"> Li as regras e autorizo meu cadastro </label>
+      </div>
+
+
+
+      <input type="submit" value="Enviar" />
+  </body>
+</form>

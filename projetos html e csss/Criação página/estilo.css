@@ -1,0 +1,32 @@
+p{
+color: #09f; font-size: 1.5;
+border-top-color: black;
+border-top-style: solid;
+border-top-width:3px;
+border-bottom-color: red;
+border-bottom-style: dotted;
+border-bottom-width:8px;
+}
+
+
+h1{
+color: #0066ff;font-family: Arial;
+border: 1px solid black;
+}
+
+h2{
+border: 1px dashed;
+border-color: red green blue black
+}
+
+
+#menu_sup{
+propriedade: valor;
+}
+
+#banner{
+color: #fff;
+background-color:#9cf;
+font-family: Arial;
+font-size: 14pt;
+}

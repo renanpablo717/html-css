@@ -1,0 +1,19 @@
+h1 {
+  color: purple;
+  font-family: georgia;
+  font-size: 170%;
+  text-align: center;
+}
+
+label {
+  color: purple;
+  font-family: verdana;
+  font-size: 80%;
+}
+legend{
+  color: purple;
+  font-family: verdana;
+  font-size: 110%;
+}
+
+

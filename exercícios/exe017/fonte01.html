@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em Css</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style> 
+        
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh
+
+            use px e em
+
+            16px é o tamanho padrão da fonte
+            16px = 1em 
+            */
+            font-size: 1em;
+            font-weight: bold; /*Peso da fonte
+            lighter, normal, bold, bolder*/
+            font-style: italic;
+            text-decoration: underline; /*Sublinhado*/
+
+            /*A família da fonte tem que possibilitar todas essas modificações*/
+
+            /*Podemos usar opções numéricas também de 100 a 900*/
+
+            /*weight = peso
+              width = Largura
+              height = altura*/
+
+        }
+        h1{
+            /*
+            font-family: 'Work Sans', sans-serif;
+            font-weight: lighter;
+            font-size: 2em;
+            font-style: italic;
+             Shorthand font
+            
+            - font-style -> font-weight -> font-size -> font-family */
+            font:  normal bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum similique maxime a excepturi neque, modi autem porro placeat tempore doloremque dicta facilis dolore illo quae aperiam, quaerat sapiente qui recusandae Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus accusamus temporibus at esse voluptatibus itaque praesentium, similique in placeat nesciunt modi alias ipsa natus. Aspernatur ea beatae veniam possimus deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facere vel ea odit quisquam saepe corrupti excepturi vitae dolore nulla provident accusamus, quaerat delectus. Iste magni provident ab deserunt sequi?</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit corrupti suscipit laborum ipsa, aliquid velit maiores amet sunt cumque voluptas dolores? Ad velit ea blanditiis aut iste necessitatibus est ducimus?</p>    
+</body>
+</html>
